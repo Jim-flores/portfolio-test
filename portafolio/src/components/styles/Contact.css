@@ -1,0 +1,67 @@
+.contact-form {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(46, 43, 43);  
+}
+.fill-form {
+    width: 60%;
+    height: 500px;
+    display: flex;
+  
+    flex-wrap: wrap;
+    column-gap: 20px;
+ 
+    justify-content: center;
+    align-items: center;
+    background-color: #3e3e3e;
+    
+}
+.fill-form form {
+    display: flex;
+    flex-direction: column;  
+    gap: 10px;
+
+}
+.submit {
+    background-color: black !important;
+    width: 160px !important;
+    height: 50px !important;
+    border-radius: 5px !important;
+}
+.app-form-control {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: #ddd;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color .2s;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+}
+.app-form-control::placeholder {
+    color: #666;
+}
+.app-form-control:focus {
+    border-bottom-color: #ddd;
+}
+.app-form-button {
+    background: none;
+    border: none;
+    color: #ea1d6f;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+}
+.app-form-button:hover {
+    color: #b9134f;
+}
